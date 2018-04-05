@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "budo .:bundle.js --live --port 8080 -- -t envify -t sheetify",
+    "build": "browserify index.js -t envify -t sheetify > bundle.js",
+    "test": "standard --fix"
+  }
+}
