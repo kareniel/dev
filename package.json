@@ -1,6 +1,6 @@
 {
   "name": "trainkit-dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node scripts & requires for developing web components",
   "main": "bin.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "tachyons": "^4.9.1"
   },
   "devDependencies": {
-    "bankai": "^9.10.0"
+    "bankai": "^9.10.0",
+    "sheetify": "^7.3.0"
   }
 }
