@@ -1,6 +1,6 @@
 {
   "name": "trainkit-dev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "node scripts & requires for developing web components",
   "main": "bin.js",
   "scripts": {
@@ -19,12 +19,12 @@
     "gh-release": "^3.2.0",
     "nanocomponent": "^6.5.1",
     "nanohtml": "^1.2.0",
+    "sheetify": "^7.3.0",
     "standard": "^11.0.1",
     "style.css": "^1.0.0",
     "tachyons": "^4.9.1"
   },
   "devDependencies": {
-    "bankai": "^9.10.0",
-    "sheetify": "^7.3.0"
+    "bankai": "^9.10.0"
   }
 }
